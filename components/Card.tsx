@@ -17,10 +17,9 @@ const Card = ({ pokemonsResults }: CardProps) => {
               <Link href={`/pokemons/${i + 1}`}>
                 <Pokemons key={i}>
                   <Image
-                    src={`
-                  https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${
-                    i + 1
-                  }.png`}
+                    src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${
+                      i + 1
+                    }.png`}
                     width={200}
                     height={200}
                     alt="Pokemons"
